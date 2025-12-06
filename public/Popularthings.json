@@ -1,0 +1,730 @@
+[
+    {
+        "owner_id": "O1",
+        "owner_name": "John Smith",
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "location": "San Francisco, USA",
+        "profile_picture": "https://images.unsplash.com/photo-1609010697446-11f2155278f0?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "bio": "Smith offers the latest tech gadgets at affordable prices.",
+        "products": [
+            {
+                "id": "P1-1",
+                "owner_id": "O1",
+                "product_name": "Smartphone Holder",
+                "price": 19.99,
+                "category": "Electronics",
+                "quantity": 30,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/51gkJBwRIiL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Adjustable holder for various smartphone sizes."
+            },
+            {
+                "id": "P1-2",
+                "owner_id": "O1",
+                "product_name": "Wireless Earbuds",
+                "price": 89.99,
+                "category": "Electronics",
+                "quantity": 25,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/51bRSWrEc7S.__AC_SY445_SX342_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "High-quality wireless earbuds with noise cancellation."
+            },
+            {
+                "id": "P1-3",
+                "owner_id": "O1",
+                "product_name": "Fitness Tracker",
+                "price": 49.99,
+                "category": "Health",
+                "quantity": 50,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/61gFrSlmofL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Tracks your daily activity, heart rate, and sleep patterns."
+            },
+            {
+                "id": "P1-4",
+                "owner_id": "O1",
+                "product_name": "Yoga Mat",
+                "price": 24.99,
+                "category": "Health",
+                "quantity": 100,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/71j-NTcp5ML.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Non-slip yoga mat for comfortable practice."
+            },
+            {
+                "id": "P1-5",
+                "owner_id": "O1",
+                "product_name": "Fitness Ball",
+                "price": 24.99,
+                "category": "Health",
+                "quantity": 55,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/91TNjX4Yn6L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Durable fitness ball for core workouts."
+            },
+            {
+                "id": "P1-6",
+                "owner_id": "O1",
+                "product_name": "Gym Gloves",
+                "price": 19.99,
+                "category": "Sports",
+                "quantity": 20,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/61MtDbzQBdL._AC_SX522_.jpg",
+                "availability": true,
+                "details": "Provides grip and wrist support during weightlifting."
+            }
+        ]
+    },
+    {
+        "owner_id": "O2",
+        "owner_name": "Sara Johnson",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "location": "Paris, France",
+        "profile_picture": "https://images.unsplash.com/photo-1609010697446-11f2155278f0?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "bio": "Sara offers organic skincare products made with natural ingredients.",
+        "products": [
+            {
+                "id": "P2-1",
+                "owner_id": "O2",
+                "product_name": "Hydrating Facial Serum",
+                "price": 39.99,
+                "category": "Health",
+                "quantity": 25,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/71EXSrnCMcL._SX466_.jpg",
+                "availability": true,
+                "details": "Nourishes and hydrates the skin with natural oils."
+            },
+            {
+                "id": "P2-2",
+                "owner_id": "O2",
+                "product_name": "Exfoliating Body Scrub",
+                "price": 29.99,
+                "category": "Health",
+                "quantity": 20,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/419wIqfMz-L._SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Gently exfoliates and softens the skin."
+            },
+            {
+                "id": "P2-3",
+                "owner_id": "O2",
+                "product_name": "Wireless Earbuds",
+                "price": 79.99,
+                "category": "Electronics",
+                "quantity": 30,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/51XKzPyCxGL._AC_SY300_SX300_.jpg",
+                "availability": true,
+                "details": "High-quality wireless earbuds with long battery life."
+            },
+            {
+                "id": "P2-4",
+                "owner_id": "O2",
+                "product_name": "Smart Scale",
+                "price": 34.99,
+                "category": "Health",
+                "quantity": 80,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/61bAnOXDl7L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Tracks weight and body composition with precision."
+            },
+            {
+                "id": "P2-5",
+                "owner_id": "O2",
+                "product_name": "Hand Grip Strengthener",
+                "price": 9.99,
+                "category": "Health",
+                "quantity": 75,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/91WhXRO7wIL.__AC_SX300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Strengthens grip and forearm muscles."
+            }
+        ]
+    },
+    {
+        "owner_id": "O3",
+        "owner_name": "Andy Brown",
+        "latitude": 35.6895,
+        "longitude": 139.6917,
+        "location": "Tokyo, Japan",
+        "profile_picture": "https://images.unsplash.com/photo-1609010697446-11f2155278f0?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "bio": "Andy offers a wide range of toys for kids of all ages.",
+        "products": [
+            {
+                "id": "P3-1",
+                "owner_id": "O3",
+                "product_name": "LEGO Classic Brick Box",
+                "price": 29.99,
+                "category": "Toys",
+                "quantity": 50,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/8160QjpuoOL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Classic LEGO bricks for creative building."
+            },
+            {
+                "id": "P3-2",
+                "owner_id": "O3",
+                "product_name": "Barbie Dreamhouse Playset",
+                "price": 149.99,
+                "category": "Toys",
+                "quantity": 20,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/71jrYmYh7jL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Interactive playset for Barbie dolls."
+            },
+            {
+                "id": "P3-3",
+                "owner_id": "O3",
+                "product_name": "Running Shoes",
+                "price": 99.99,
+                "category": "Sports",
+                "quantity": 40,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/41OZfAflyHL._AC_SY500_.jpg",
+                "availability": true,
+                "details": "Comfortable running shoes with cushioned soles."
+            },
+            {
+                "id": "P3-4",
+                "owner_id": "O3",
+                "product_name": "Smartwatch",
+                "price": 199.99,
+                "category": "Electronics",
+                "quantity": 20,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/61NJKdXqx5L._AC_SY300_SX300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Tracks fitness metrics and receives notifications."
+            }
+        ]
+    },
+    {
+        "owner_id": "O4",
+        "owner_name": "Sophia Miller",
+        "latitude": 41.9028,
+        "longitude": 12.4964,
+        "location": "Rome, Italy",
+        "profile_picture": "https://images.unsplash.com/photo-1609010697446-11f2155278f0?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "bio": "Sophia offers a wide range of books, from classics to contemporary literature.",
+        "products": [
+            {
+                "id": "P4-1",
+                "owner_id": "O4",
+                "product_name": "Classic Novel Collection",
+                "price": 59.99,
+                "category": "Books",
+                "quantity": 15,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/91hspw4TUaS._SY342_.jpg",
+                "availability": true,
+                "details": "Collection of classic novels from various authors."
+            },
+            {
+                "id": "P4-2",
+                "owner_id": "O4",
+                "product_name": "Children's Story Book Set",
+                "price": 24.99,
+                "category": "Books",
+                "quantity": 30,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/51phTJlJMvL._SX342_SY445_.jpg",
+                "availability": true,
+                "details": "Set of engaging storybooks for children."
+            },
+            {
+                "id": "P4-3",
+                "owner_id": "O4",
+                "product_name": "Cookbook: Italian Cuisine",
+                "price": 34.99,
+                "category": "Books",
+                "quantity": 25,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/51jKxVmcxgL._SY445_SX342_.jpg",
+                "availability": true,
+                "details": "Authentic recipes for classic Italian dishes."
+            },
+            {
+                "id": "P4-4",
+                "owner_id": "O4",
+                "product_name": "Mystery Novel: The Lost Key",
+                "price": 14.99,
+                "category": "Books",
+                "quantity": 40,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/51JX22KVCBL._SY445_SX342_.jpg",
+                "availability": true,
+                "details": "A gripping mystery novel set in an old mansion."
+            }
+        ]
+    },
+    {
+        "owner_id": "O5",
+        "name": "Jessica's Sports Gear",
+        "owner_name": "Jessica Lee",
+        "latitude": 43.65107,
+        "longitude": -79.347015,
+        "location": "Toronto, Canada",
+        "profile_picture": "https://images.unsplash.com/photo-1609010697446-11f2155278f0?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "bio": "Jessica offers high-quality sports gear and equipment for athletes.",
+        "products": [
+            {
+                "id": "P5-1",
+                "owner_id": "O5",
+                "product_name": "Basketball",
+                "price": 29.99,
+                "category": "Sports",
+                "quantity": 60,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/7187crn3osS.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "High-quality basketball suitable for both indoor and outdoor play."
+            },
+            {
+                "id": "P5-2",
+                "owner_id": "O5",
+                "product_name": "Football",
+                "price": 24.99,
+                "category": "Sports",
+                "quantity": 70,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/81wnh9OneyL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Standard size football ideal for recreational play."
+            },
+            {
+                "id": "P5-3",
+                "owner_id": "O5",
+                "product_name": "Resistance Bands",
+                "price": 19.99,
+                "category": "Health",
+                "quantity": 100,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/71ALgXGX21L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Set of resistance bands for strength training and physical therapy."
+            },
+            {
+                "id": "P5-4",
+                "owner_id": "O5",
+                "product_name": "Treadmill",
+                "price": 599.99,
+                "category": "Health",
+                "quantity": 10,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/71-DDrxTE1L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Foldable treadmill with adjustable speed and incline for home workouts."
+            },
+            {
+                "id": "P5-5",
+                "owner_id": "O5",
+                "product_name": "Hiking Backpack",
+                "price": 89.99,
+                "category": "Sports",
+                "quantity": 25,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/81p0Xn+GbGL._AC_SY300_SX300_.jpg",
+                "availability": true,
+                "details": "Durable hiking backpack with multiple compartments for outdoor adventures."
+            }
+        ]
+    },
+    {
+        "owner_id": "O6",
+        "name": "Martin's Art Supplies",
+        "owner_name": "Martin Green",
+        "latitude": -33.8688,
+        "longitude": 151.2093,
+        "location": "Sydney, Australia",
+        "profile_picture": "https://images.unsplash.com/photo-1609010697446-11f2155278f0?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "bio": "Martin provides a wide range of art supplies for artists of all levels.",
+        "products": [
+            {
+                "id": "P6-1",
+                "owner_id": "O6",
+                "product_name": "Acrylic Paint Set",
+                "price": 29.99,
+                "category": "Art Supplies",
+                "quantity": 40,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/71ebwulFpxL._AC_SY300_SX300_.jpg",
+                "availability": true,
+                "details": "Complete set of vibrant acrylic paints for artists and hobbyists."
+            },
+            {
+                "id": "P6-2",
+                "owner_id": "O6",
+                "product_name": "Canvas Panels",
+                "price": 19.99,
+                "category": "Art Supplies",
+                "quantity": 50,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/71SPGn5TLyL._AC_SX679_.jpg",
+                "availability": true,
+                "details": "Pack of canvas panels for painting, suitable for various mediums."
+            },
+            {
+                "id": "P6-3",
+                "owner_id": "O6",
+                "product_name": "Yoga Mat",
+                "price": 29.99,
+                "category": "Health",
+                "quantity": 40,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/81Mb+wFuOML._AC_SY300_SX300_.jpg",
+                "availability": true,
+                "details": "Non-slip yoga mat for comfortable and stable yoga practice."
+            },
+            {
+                "id": "P6-4",
+                "owner_id": "O6",
+                "product_name": "Digital Camera",
+                "price": 399.99,
+                "category": "Electronics",
+                "quantity": 15,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/71Is-Zv6A0L._AC_SY355_.jpg",
+                "availability": true,
+                "details": "High-resolution digital camera with advanced features for photography enthusiasts."
+            }
+        ]
+    },
+    {
+        "owner_id": "O7",
+        "name": "Daniel's Home Decor",
+        "owner_name": "Daniel White",
+        "latitude": 40.7128,
+        "longitude": -74.0060,
+        "location": "New York City, USA",
+        "profile_picture": "https://images.unsplash.com/photo-1560304624-df503bd0f50a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&h=400",
+        "bio": "Daniel offers a wide range of home decor items to enhance your living space.",
+        "products": [
+            {
+                "id": "P7-1",
+                "owner_id": "O7",
+                "product_name": "Modern Wall Art",
+                "price": 49.99,
+                "category": "Home Decor",
+                "quantity": 20,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/81RlIoDsgKL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Contemporary artwork to beautify your walls."
+            },
+            {
+                "id": "P7-2",
+                "owner_id": "O7",
+                "product_name": "Decorative Throw Pillows",
+                "price": 24.99,
+                "category": "Home Decor",
+                "quantity": 30,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/71NynfyfveL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Stylish pillows to add comfort and elegance to your sofa."
+            }
+        ]
+    },
+    {
+        "owner_id": "O8",
+        "name": "Emily's Fashion Boutique",
+        "owner_name": "Emily Johnson",
+        "latitude": 51.5074,
+        "longitude": -0.1278,
+        "location": "London, UK",
+        "profile_picture": "https://images.unsplash.com/photo-1558550220-15b7300e9a7e?q=80&w=1770&auto=format&fit=crop&ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&h=400",
+        "bio": "Emily offers trendy fashion items and accessories for every occasion.",
+        "products": [
+            {
+                "id": "P8-1",
+                "owner_id": "O8",
+                "product_name": "Women's Floral Dress",
+                "price": 59.99,
+                "category": "Fashion",
+                "quantity": 25,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/81Q2Q0b8PAL._AC_SY445_.jpg",
+                "availability": true,
+                "details": "Elegant dress with a floral pattern, perfect for summer."
+            },
+            {
+                "id": "P8-2",
+                "owner_id": "O8",
+                "product_name": "Men's Leather Jacket",
+                "price": 129.99,
+                "category": "Fashion",
+                "quantity": 15,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/71INY5ODgxL._AC_SY445_.jpg",
+                "availability": true,
+                "details": "Classic leather jacket for a stylish look."
+            }
+        ]
+    },
+    {
+        "owner_id": "O9",
+        "name": "Michael's Tech World",
+        "owner_name": "Michael Brown",
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "location": "Los Angeles, USA",
+        "profile_picture": "https://images.unsplash.com/photo-1527980965253-7422a3d2f72a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&h=400",
+        "bio": "Michael specializes in the latest technology gadgets and accessories.",
+        "products": [
+            {
+                "id": "P9-1",
+                "owner_id": "O9",
+                "product_name": "Smartwatch with Fitness Tracker",
+                "price": 199.99,
+                "category": "Electronics",
+                "quantity": 20,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/71eM8xOaq6L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Advanced smartwatch with built-in fitness tracking features."
+            },
+            {
+                "id": "P9-2",
+                "owner_id": "O9",
+                "product_name": "Bluetooth Wireless Headphones",
+                "price": 89.99,
+                "category": "Electronics",
+                "quantity": 30,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/61ZDwijKtxL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "High-quality headphones for immersive audio experience."
+            }
+        ]
+    },
+    {
+        "owner_id": "O10",
+        "name": "Sophie's Pet Paradise",
+        "owner_name": "Sophie Taylor",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "location": "Paris, France",
+        "profile_picture": "https://images.unsplash.com/photo-1552074203-3a5ca50739d4?q=80&w=1770&auto=format&fit=crop&ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&h=400",
+        "bio": "Sophie offers a variety of products for pets, from toys to accessories.",
+        "products": [
+            {
+                "id": "P10-1",
+                "owner_id": "O10",
+                "product_name": "Interactive Cat Toy",
+                "price": 19.99,
+                "category": "Pets",
+                "quantity": 40,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/61jYFC7hrFL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Keeps cats entertained with interactive features."
+            },
+            {
+                "id": "P10-2",
+                "owner_id": "O10",
+                "product_name": "Dog Leash and Collar Set",
+                "price": 29.99,
+                "category": "Pets",
+                "quantity": 35,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/71MPnTWXKmL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Stylish and durable leash and collar set for dogs."
+            }
+        ]
+    },
+    {
+        "owner_id": "O11",
+        "name": "Chris's Outdoor Adventures",
+        "owner_name": "Chris Wilson",
+        "latitude": 51.1657,
+        "longitude": 10.4515,
+        "location": "Berlin, Germany",
+        "profile_picture": "https://images.unsplash.com/photo-1598971207475-0f005fc31cf3?q=80&w=1770&auto=format&fit=crop&ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&h=400",
+        "bio": "Chris offers gear and equipment for outdoor enthusiasts.",
+        "products": [
+            {
+                "id": "P11-1",
+                "owner_id": "O11",
+                "product_name": "Camping Tent for 4",
+                "price": 149.99,
+                "category": "Outdoor",
+                "quantity": 15,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/71AIHD5lPvL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Spacious tent with room for 4 people, ideal for camping trips."
+            },
+            {
+                "id": "P11-2",
+                "owner_id": "O11",
+                "product_name": "Hiking Backpack",
+                "price": 89.99,
+                "category": "Outdoor",
+                "quantity": 20,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/81AyNDyoT5L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Durable backpack with multiple compartments for hiking adventures."
+            }
+        ]
+    },
+    {
+        "owner_id": "O12",
+        "name": "Alex's Kitchen Essentials",
+        "owner_name": "Alexandra Smith",
+        "latitude": 45.4215,
+        "longitude": -75.6919,
+        "location": "Ottawa, Canada",
+        "profile_picture": "https://images.unsplash.com/photo-1550547665-d945dcd6b6b0?q=80&w=1770&auto=format&fit=crop&ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&h=400",
+        "bio": "Alex offers high-quality kitchen gadgets and tools for home cooks.",
+        "products": [
+            {
+                "id": "P12-1",
+                "owner_id": "O12",
+                "product_name": "Non-Stick Cookware Set",
+                "price": 99.99,
+                "category": "Kitchen",
+                "quantity": 10,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/51pX3MANgyL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Complete set of non-stick cookware for easy cooking and cleaning."
+            },
+            {
+                "id": "P12-2",
+                "owner_id": "O12",
+                "product_name": "Chef's Knife Set",
+                "price": 69.99,
+                "category": "Kitchen",
+                "quantity": 20,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/71yDnrvlKVL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Sharp and durable knives for precision cutting in the kitchen."
+            }
+        ]
+    },
+    {
+        "owner_id": "O13",
+        "name": "Michelle's Jewelry Collection",
+        "owner_name": "Michelle Garcia",
+        "latitude": 25.7617,
+        "longitude": -80.1918,
+        "location": "Miami, USA",
+        "profile_picture": "https://images.unsplash.com/photo-1526323722488-f4608e15e2ff?q=80&w=1770&auto=format&fit=crop&ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&h=400",
+        "bio": "Michelle offers exquisite jewelry pieces crafted with elegance and style.",
+        "products": [
+            {
+                "id": "P13-1",
+                "owner_id": "O13",
+                "product_name": "Diamond Stud Earrings",
+                "price": 499.99,
+                "category": "Jewelry",
+                "quantity": 5,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/61HpbQfzN7L._AC_SY535_.jpg",
+                "availability": true,
+                "details": "Timeless diamond stud earrings for a touch of sophistication."
+            },
+            {
+                "id": "P13-2",
+                "owner_id": "O13",
+                "product_name": "Gold Bracelet",
+                "price": 299.99,
+                "category": "Jewelry",
+                "quantity": 8,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/51mGqEVTZYL._AC_SY500_.jpg",
+                "availability": true,
+                "details": "Elegant gold bracelet that adds a touch of glamour to any outfit."
+            }
+        ]
+    },
+    {
+        "owner_id": "O14",
+        "name": "Max's Gaming Corner",
+        "owner_name": "Maxwell Thompson",
+        "latitude": 51.0486,
+        "longitude": -114.0708,
+        "location": "Calgary, Canada",
+        "profile_picture": "https://images.unsplash.com/photo-1550253748-3907243d72c3?q=80&w=1770&auto=format&fit=crop&ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&h=400",
+        "bio": "Max offers a wide selection of gaming consoles  and accessories for gamers of all levels.",
+        "products": [
+            {
+                "id": "P14-1",
+                "owner_id": "O14",
+                "product_name": "PlayStation 5 Console",
+                "price": 499.99,
+                "category": "Gaming",
+                "quantity": 10,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/619BkvKW35L._AC_SX679_.jpg",
+                "availability": true,
+                "details": "Next-gen gaming console with high-performance graphics and speed."
+            },
+            {
+                "id": "P14-2",
+                "owner_id": "O14",
+                "product_name": "Gaming Headset with Mic",
+                "price": 79.99,
+                "category": "Gaming",
+                "quantity": 15,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/41w0MueTzGL._SX300_SY300_QL70_FMwebp_.jpg",
+                "availability": true,
+                "details": "Immersive gaming headset with clear audio and noise-canceling microphone."
+            }
+        ]
+    },
+    {
+        "owner_id": "O15",
+        "name": "Lily's Book Emporium",
+        "owner_name": "Lily Martinez",
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "location": "Los Angeles, USA",
+        "profile_picture": "https://images.unsplash.com/photo-1561613096-103fead1a928?q=80&w=1770&auto=format&fit=crop&ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&h=400",
+        "bio": "Lily offers a diverse collection of books for all ages and interests.",
+        "products": [
+            {
+                "id": "P15-1",
+                "owner_id": "O15",
+                "product_name": "Best-Selling Fiction Novel",
+                "price": 19.99,
+                "category": "Books",
+                "quantity": 30,
+                "popular": true,
+                "image": "https://m.media-amazon.com/images/I/51cUHuRfkdL.jpg",
+                "availability": true,
+                "details": "Engaging fiction novel loved by readers worldwide."
+            },
+            {
+                "id": "P15-2",
+                "owner_id": "O15",
+                "product_name": "Children's Picture Book Set",
+                "price": 29.99,
+                "category": "Books",
+                "quantity": 20,
+                "popular": false,
+                "image": "https://m.media-amazon.com/images/I/51bR0PX1y9L._SX342_SY445_.jpg",
+                "availability": true,
+                "details": "Colorful picture book set to spark imagination in young readers."
+            }
+        ]
+    }
+]

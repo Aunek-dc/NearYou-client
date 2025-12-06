@@ -1,0 +1,51 @@
+.distance-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as necessary */
+}
+
+.distance-text {
+    display: block;
+    color: #a3c92f; /* Initial color (same as text-green-500 in Tailwind CSS) */
+    animation: fadeInMove 1s ease-in-out forwards, colorAndSizeChange 6s 1s infinite;
+    transition: transform 0.3s ease-in-out;
+}
+
+.distance-text:hover {
+    transform: scale(1.2);
+}
+
+@keyframes fadeInMove {
+    0% {
+        opacity: 0;
+        transform: translateY(20px) scale(1.1);
+}
+    50% {
+        opacity: 1;
+        transform: translateY(-20px) scale(.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes colorAndSizeChange {
+    0%, 16.66% {
+        color: #bec833; /* Initial color */
+        transform: scale(1); /* Initial size */
+    }
+    33.33%, 49.99% {
+        color: #829021; /* Second color */
+        transform: scale(1.1); /* Slightly larger */
+    }
+    50%, 66.66% {
+        color: #22C55E; /* Third color */
+        transform: scale(1.2); /* Even larger */
+    }
+    83.33%, 100% {
+        color: #16A34A; /* Fourth color */
+        transform: scale(1); /* Back to initial size */
+    }
+}

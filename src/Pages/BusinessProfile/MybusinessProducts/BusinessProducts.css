@@ -1,0 +1,199 @@
+.business-products {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.business-products .drawer-toggle-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.business-products .drawer-toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+.business-products .message {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeInOut 3s forwards;
+    font-size: 16px;
+}
+
+.business-products .loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+.business-products .content-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.business-products .product-list-column {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.business-products .text-center {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #007bff;
+}
+
+.business-products .product-list {
+    list-style: none;
+    padding: 0;
+}
+
+.business-products .product-item {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.business-products .product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-color: #007bff;
+}
+
+.business-products .product-item h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.business-products .product-item p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+.business-products .product-item p span {
+    font-weight: 700;
+    color: #007bff;
+}
+
+.business-products .product-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.business-products .product-item button:hover {
+    background-color: #138496;
+}
+
+.business-products .drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    /* background-color: white; */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.business-products .drawer.add-drawer {
+    transform: translateX(${isDrawerOpen ? '0' : '100%'}); /* Toggle based on isDrawerOpen */
+}
+
+.business-products .drawer.edit-drawer {
+    transform: translateX(${isEditDrawerOpen ? '0' : '100%'}); /* Toggle based on isEditDrawerOpen */
+}
+
+.business-products .product-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.business-products .form-group {
+    margin-bottom: 15px;
+}
+
+.business-products .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+.business-products .form-group input,
+.business-products .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.business-products .form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.business-products .product-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    align-self: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.business-products .product-form button:hover {
+    background-color: #218838;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,34 @@
+/* Home.css
+.banner-background {
+    background-color: #c1db67; Light gray
+}
+
+.category-background {
+    background-color: #525536; 
+}
+
+.product-list-background {
+    background-color: #6a7517; 
+}
+
+.reviews-background {
+    background-color: #769e30; 
+} */
+
+/* Home.css */
+.banner-background {
+    margin-top: 0;
+    background-color: #fff9c4; /* Light Yellow */
+}
+
+.category-background {
+    background-color: #ffecb3; /* Slightly Darker Yellow */
+}
+
+.product-list-background {
+    background-color: #fff8e1; /* Very Light Yellow */
+}
+
+.reviews-background {
+    background-color: #585547; /* Bright Yellow */
+}

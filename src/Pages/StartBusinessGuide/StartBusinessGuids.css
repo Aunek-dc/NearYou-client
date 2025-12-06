@@ -1,0 +1,108 @@
+styles.css
+/* body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.banner-background,
+.category-background,
+.product-list-background,
+.reviews-background {
+    margin: 20px 0;
+}
+
+.start-business-guide {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.start-business-guide h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.start-business-guide ul {
+    list-style: none;
+    padding: 0;
+}
+
+.start-business-guide li {
+    background: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.start-business-guide li:hover {
+    transform: translateY(-5px);
+}
+
+.start-business-guide h3 {
+    margin: 0 0 10px 0;
+    color: #4CAF50;
+}
+
+.start-business-guide p {
+    margin: 0 0 10px 0;
+    color: #555;
+}
+
+.start-business-guide ul ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.start-business-guide ul ul li {
+    background: none;
+    margin-bottom: 10px;
+    padding: 0;
+    box-shadow: none;
+    transition: none;
+}
+
+.start-business-guide ul ul li:hover {
+    transform: none;
+}
+
+.start-business-guide a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.start-business-guide a:hover {
+    text-decoration: underline;
+}

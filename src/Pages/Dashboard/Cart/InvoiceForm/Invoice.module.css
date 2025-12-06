@@ -1,0 +1,96 @@
+/* Container styling */
+.container {
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden; /* Ensure content does not exceed screen size */
+}
+
+/* Header styling */
+.header {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #007bff;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Detail paragraph styling */
+.detail {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.detail strong {
+  color: #333;
+}
+
+/* Input group styling */
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.inputLabel {
+  display: block;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* List styling */
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+/* List item styling */
+.listItem {
+  background-color: #f8f9fa;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border-left: 5px solid #007bff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.listItem:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Total price styling */
+.totalPrice {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e74c3c;
+  text-align: right;
+  border-top: 2px solid #007bff;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+/* Additional styles for better visuals */
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}

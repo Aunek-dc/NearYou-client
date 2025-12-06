@@ -1,0 +1,15 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FEF3C7; /* Equivalent to bg-yellow-100 in Tailwind */
+}
+
+.content {
+    flex-grow: 1;
+}

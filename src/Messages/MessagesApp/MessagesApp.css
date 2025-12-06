@@ -1,0 +1,93 @@
+.messaging-app {
+    display: flex;
+    height: 100vh;
+  }
+  .drawer {
+    width: 250px;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+    background: #f0f0f0;
+    padding: 10px;
+  }
+  .drawer.open {
+    transform: translateX(0);
+  }
+  .drawer-toggle {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  .user-list li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  .user-list li:hover {
+    background: #e0e0e0;
+  }
+  .chat-window {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+  }
+  .chat-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  .chat-footer {
+    display: flex;
+    padding: 10px;
+    background: #f0f0f0;
+  }
+  .message-input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  .send-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .message-list {
+    list-style: none;
+    padding: 0;
+  }
+  .message-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .message-item.sent {
+    background: #d1ecf1;
+  }
+  .message-item.received {
+    background: #f8d7da;
+  }
+  .message-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .message-user {
+    font-weight: bold;
+  }
+  .message-timestamp {
+    font-size: 0.8em;
+    color: #6c757d;
+  }

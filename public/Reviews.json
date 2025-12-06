@@ -1,0 +1,93 @@
+[
+    {
+      "id": 12345,
+      "name": "John",
+      "comment": "I absolutely loved this product! It exceeded my expectations in every way. The build quality is fantastic, and the features are incredibly useful. I've been using it for a few weeks now, and it has become an essential part of my daily routine. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "id": 23456,
+      "name": "Emily",
+      "comment": "I'm really impressed with this product! It's intuitive to use, and the performance is outstanding. The customer service team was also very helpful when I had questions. Overall, I'm extremely satisfied with my purchase.",
+      "rating": 5
+    },
+    {
+      "id": 34567,
+      "name": "David",
+      "comment": "Excellent product! It's well-designed and functions flawlessly. I've been using it for months without any issues. The customer support team is also very responsive. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "id": 45678,
+      "name": "Daniel",
+      "comment": "This product is amazing! It's incredibly versatile and well-made. I use it every day and have had no issues whatsoever. Definitely worth the investment.",
+      "rating": 5
+    },
+    {
+      "id": 56789,
+      "name": "Ava",
+      "comment": "This product exceeded my expectations! It's well-built, easy to use, and has all the features I need. I've recommended it to all my friends and family.",
+      "rating": 5
+    },
+    {
+      "id": 67890,
+      "name": "Isabella",
+      "comment": "I'm quite satisfied with this product. It's easy to use, and the performance is reliable. I've had no issues with it so far.",
+      "rating": 4
+    },
+    {
+      "id": 78901,
+      "name": "Sophia",
+      "comment": "This product is fantastic! It's everything I was looking for and more. The design is sleek, and the performance is top-notch. I highly recommend it to anyone in need of a reliable solution.",
+      "rating": 5
+    },
+    {
+      "id": 89012,
+      "name": "Ethan",
+      "comment": "I'm extremely happy with this product! It's user-friendly and has improved my productivity significantly. The customer service team was also very helpful when I had a minor issue. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "id": 90123,
+      "name": "Olivia",
+      "comment": "I'm very pleased with this product. It's well-made and works perfectly. I've been using it for a while now, and it hasn't let me down.",
+      "rating": 4
+    },
+    {
+      "id": 23459,
+      "name": "Noah",
+      "comment": "Amazing product! It's exceeded my expectations. The build quality is excellent, and it's incredibly easy to use. I would definitely recommend it to others.",
+      "rating": 5
+    },
+    {
+      "id": 34568,
+      "name": "Emma",
+      "comment": "This product is fantastic! It's changed the way I work for the better. The features are exactly what I needed, and the build quality is excellent.",
+      "rating": 5
+    },
+    {
+      "id": 456789,
+      "name": "Liam",
+      "comment": "I'm very satisfied with this product. It's reliable and easy to use. The customer service team was also very helpful when I had a question. Overall, great experience.",
+      "rating": 4
+    },
+    {
+      "id": 5678910,
+      "name": "Mia",
+      "comment": "Great product! It's helped me become more organized and productive. The design is sleek, and the features are intuitive. Highly recommend it!",
+      "rating": 5
+    },
+    {
+      "id": 67890100,
+      "name": "Lucas",
+      "comment": "I'm extremely happy with this purchase! The product exceeded my expectations, and it's made my life much easier. Highly recommended.",
+      "rating": 5
+    },
+    {
+      "id": 78902,
+      "name": "Amelia",
+      "comment": "This product is excellent! It's exactly what I needed to streamline my workflow. The build quality is top-notch, and the features are fantastic.",
+      "rating": 5
+    }
+  ]
+  

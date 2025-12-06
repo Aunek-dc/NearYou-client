@@ -1,0 +1,137 @@
+/* Custom CSS for Navbar */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.navbar {
+    background-color: #1a202c;
+    color: #f6e05e;
+    opacity: 0.95;
+    z-index: 20;
+}
+
+.navbar-start, .navbar-end {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .dropdown {
+    position: relative;
+}
+
+.navbar .dropdown-content {
+    background-color: #2d3748;
+    border-radius: 0.5rem;
+}
+
+.navbar .menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .menu li {
+    margin-right: 1rem;
+}
+
+.navbar .menu li a {
+    color: #f6e05e;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    background-color: #4a5568;
+    color: #f6e05e;
+    font-size: 1.125rem; /* Slightly increase font size on hover */
+}
+
+.navbar .btn {
+    background-color: transparent;
+    border: none;
+    color: #f6e05e;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navbar .btn:hover {
+    color: #f6ad55;
+}
+
+.navbar .avatar img {
+    border-radius: 50%;
+}
+
+.navbar .input-group {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .input-group .input {
+    background-color: #2d3748;
+    border: none;
+    color: #f6e05e;
+    padding: 0.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.navbar .input-group .btn-square {
+    background-color: #4a5568;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .input-group .btn-square:hover {
+    background-color: #718096;
+}
+
+.badge {
+    background-color: #d69e2e;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.spinner-border {
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #f6e05e;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.label {
+    color: #f6e05e;
+}
+
+.radio:checked {
+    background-color: #f6e05e;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .navbar .navbar-end {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .navbar .dropdown {
+        display: none;
+    }
+}
